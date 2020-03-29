@@ -7,7 +7,15 @@ const SessionController = require("./controllers/SessionController");
 
 const routes = express.Router();
 
-routes.post("/sessions", SessionController.create);
+routes.post(
+  "/sessions",
+  celebrate({
+    [Segments.BODY]: Joi.object().keys({
+      id: Joi.string().required()
+    })
+  }),
+  SessionController.create
+);
 
 routes.post(
   "/ongs",
