@@ -29,6 +29,9 @@
 <p align="center">
   <a href="https://insomnia.rest/run/?label=be-the-hero&uri=https%3A%2F%2Fraw.githubusercontent.com%tgmarinho%2Fbe-the-hero%2Fmaster%2FInsomnia_2020-03-24.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
+<p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4a5d7bd5-e287-4bac-9be4-c8fca29db33c/deploy-status)](https://app.netlify.com/sites/be-the-super-hero/deploys)
+</p>
 <p align="center">
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -45,12 +48,11 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
     <img alt="Login-Page" title="Login-Page" src=".github/preview.jpg" width="500px" />
 </h1>
 
-
 ## :rocket: Technologies
 
 This project was developed with the following technologies:
 
-- [Node.js](https://nodejs.org/en/) 
+- [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
@@ -58,7 +60,6 @@ This project was developed with the following technologies:
 ## 🔖 Layout
 
 Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1).
-
 
 ## 🤔 How to contribute
 

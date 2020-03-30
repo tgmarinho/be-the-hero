@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Be The Hero",
-    "slug": "bethehero",
-    "description": "Be The Hero, you can create ONGS and help what is important to you, saving the day solvind incidents!"
+    "slug": "BeTheHero",
+    "description": "Be The Hero, you can create ONGS and help what is important to you, saving the day solvind incidents!",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": ["ios", "android", "web"],
@@ -20,6 +20,10 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bethesuperhero",
+      "versionCode": 1
     }
   }
 }
