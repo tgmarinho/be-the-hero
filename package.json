@@ -1,0 +1,17 @@
+{
+  "name": "bethehero",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     <img alt=\"BeTheHero\" title=\"#BeTheHero\" src=\".github/logo.svg\" width=\"250px\" /> </h1>",
+  "scripts": {
+    "start": "cd backend && yarn prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgmarinho/be-the-hero.git"
+  },
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/tgmarinho/be-the-hero/issues"
+  },
+  "homepage": "https://github.com/tgmarinho/be-the-hero#readme"
+}
