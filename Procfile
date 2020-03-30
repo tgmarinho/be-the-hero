@@ -1,1 +1,1 @@
-web: yarn workspace backend prod
+web: cd backend && yarn prod
