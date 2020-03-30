@@ -1,0 +1,26 @@
+{
+  "name": "week11",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     <img alt=\"BeTheHero\" title=\"#BeTheHero\" src=\".github/logo.svg\" width=\"250px\" /> </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgmarinho/be-the-hero.git"
+  },
+  "keywords": [],
+  "author": "Thiago Marinho <tgmarinho@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgmarinho/be-the-hero/issues"
+  },
+  "homepage": "https://github.com/tgmarinho/be-the-hero#readme",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "mobile"
+  ]
+}
