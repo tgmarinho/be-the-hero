@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "<h1 align=\"center\">     <img alt=\"BeTheHero\" title=\"#BeTheHero\" src=\".github/logo.svg\" width=\"250px\" /> </h1>",
   "scripts": {
-    "start": "cd backend && yarn prod"
+    "start": "cd backend && yarn install && yarn prod"
   },
   "repository": {
     "type": "git",
