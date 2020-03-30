@@ -1,1 +1,1 @@
-web: cd backend && yarn install && yarn prod
+web: npm install && npm start
