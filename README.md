@@ -70,6 +70,19 @@ Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/2C
 
 After merging your receipt request to done, you can delete a branch from yours.
 
+## &#127873; Marketing
+
+Acompanhei a Semana Omnistack 11 da Rocketseat e fiz projeto e hospedei o Backend no Heroku, Frontend no Netlify e Aplicativo no Google Play e todo o código no Github.
+
+Seguem os links:
+- [API Backend](https://be-the-super-hero.herokuapp.com/ongs)
+- [Frontend](https://be-the-super-hero.netlify.com/)
+- [App Google Play](https://play.google.com/store/apps/details?id=com.bethesuperhero)
+- [Código](https://github.com/tgmarinho/be-the-hero)
+
+#api #nodejs #backend #frontend #react #reactnative #appdeveloper #googleplay  #heroku #netlify #rocketseat #omnistack #gostack #developer
+
+
 ## :memo: License
 
 This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
