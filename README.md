@@ -2,91 +2,91 @@
     <img alt="BeTheHero" title="#BeTheHero" src=".github/logo.svg" width="250px" />
 </h1>
 
-<h4 align="center"> 
-:construction: 🚀 Semana OmniStack 11.0 In progress.. :construction:
-</h4>
+<h1 align="center">Be The Hero</h1>
+
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/be-the-hero?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/be-the-hero">
-	
-  <a href="https://www.linkedin.com/in/tgmarinho/">
-    <img alt="Made by Thiago Marinho" src="https://img.shields.io/badge/made%20by-tgmarinho-%2304D361">
-  </a>
-
-  <a href="https://github.com/tgmarinho/be-the-hero/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/be-the-hero">
-  </a>
-
-  <a href="https://github.com/tgmarinho/be-the-hero/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/tgmarinho/be-the-hero">
-  </a>
-<a aria-label="Completed" href="https://rocketseat.com.br/week-10/aulas#4">
-    <img src="https://img.shields.io/badge/OmniStack-done-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
-  </a>
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  A full-stack app that connects NGOs with people willing to help, built during Rocketseat's Semana OmniStack 11.0.
 </p>
+
 <p align="center">
-  <a href="https://insomnia.rest/run/?label=be-the-hero&uri=https%3A%2F%2Fraw.githubusercontent.com%tgmarinho%2Fbe-the-hero%2Fmaster%2FInsomnia_2020-03-24.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
-<p>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4a5d7bd5-e287-4bac-9be4-c8fca29db33c/deploy-status)](https://app.netlify.com/sites/be-the-super-hero/deploys)
-</p>
-<p align="center">
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black">
+  <img alt="React Native" src="https://img.shields.io/badge/React%20Native-61DAFB?logo=react&logoColor=black">
+  <img alt="Expo" src="https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white">
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white">
 </p>
 
-## 💻 Project
+## What it does
 
-Be The Hero is a project that aims to connect people who are willing to help ONGs.
+NGOs register the cases they need help with. Each case has a title, a description, and the amount of money needed. People who want to help (the heroes) browse the cases and contact the NGO by email or WhatsApp to support one.
 
-<h1 align="center">
-    <img alt="Login-Page" title="Login-Page" src=".github/preview.jpg" width="500px" />
-</h1>
+The project has three parts:
 
-## :rocket: Technologies
+- A REST API for NGOs, cases, and sessions.
+- A web app where NGOs log in, register cases, and manage them.
+- A mobile app where heroes see the cases and reach out to help.
 
-This project was developed with the following technologies:
+## Download
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+The mobile app is published on Google Play.
 
-## 🔖 Layout
+- [Get it on Google Play](https://play.google.com/store/apps/details?id=com.bethesuperhero)
 
-Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1).
+## Stack
 
-## 🤔 How to contribute
+- **Backend:** Node.js, Express, Knex, SQLite
+- **Frontend:** React
+- **Mobile:** React Native, Expo
+- **HTTP client:** Axios
 
-- Make a fork;
-- Create a branck with your feature: `git checkout -b my-feature`;
-- Commit changes: `git commit -m 'feat: My new feature'`;
-- Make a push to your branch: `git push origin my-feature`.
+## Project structure
 
-After merging your receipt request to done, you can delete a branch from yours.
+```
+be-the-hero/
+├── backend/    Node.js REST API (Express, Knex, SQLite)
+├── frontend/   Web app (React)
+└── mobile/     Mobile app (React Native, Expo)
+```
 
-## &#127873; Marketing
+## Run locally
 
-Acompanhei a Semana Omnistack 11 da Rocketseat e fiz projeto e hospedei o Backend no Heroku, Frontend no Netlify e Aplicativo no Google Play e todo o código no Github.
+You need Node.js and Yarn installed. Run each part in its own terminal.
 
-Seguem os links:
-- [API Backend](https://be-the-super-hero.herokuapp.com/ongs)
-- [Frontend](https://be-the-super-hero.netlify.com/)
-- [App Google Play](https://play.google.com/store/apps/details?id=com.bethesuperhero)
-- [Código](https://github.com/tgmarinho/be-the-hero)
+### Backend
 
-#api #nodejs #backend #frontend #react #reactnative #appdeveloper #googleplay  #heroku #netlify #rocketseat #omnistack #gostack #developer
+```bash
+cd backend
+yarn install
+yarn knex migrate:latest
+yarn start
+```
 
+The API runs on `http://localhost:3333`.
 
-## :memo: License
+### Frontend
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
+```bash
+cd frontend
+yarn install
+yarn start
+```
+
+The web app runs on `http://localhost:3000`.
+
+### Mobile
+
+```bash
+cd mobile
+yarn install
+yarn start
+```
+
+This opens Expo. Scan the QR code with the Expo app on your phone, or run it on an emulator.
+
+## License
+
+This project is under the MIT license. See [LICENSE](LICENSE.md) for details.
 
 ---
 
-Made with ♥ by Thiago Marinho :wave: [Get in touch!](https://www.linkedin.com/in/tgmarinho/)
+Made by Thiago Marinho. [Get in touch](https://www.linkedin.com/in/tgmarinho/).
